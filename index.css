@@ -34,14 +34,20 @@ display: flex;
 width: 40%;
 justify-content: space-around;
 color: white;
+
 }
 li
 {
     list-style-type: none;
+
 }
 li a
 {
-   
+    text-decoration: none;
+}
+.xa
+{
+   color: white;
     text-decoration: none;
 }
 .title
@@ -116,6 +122,17 @@ color: white;
     border-radius: 4px;
     padding: 5px;
     margin-bottom: 4px;
+    cursor: pointer;
+    
+}
+.l:hover
+{
+    background-color: aqua;
+}
+.l:active
+{
+    border: 1px solid red;
+    background-color: purple;
 }
 .m
 {
@@ -138,6 +155,16 @@ color: white;
     border-radius: 2px;
     background-color: aqua;
     color:white;
+    cursor: pointer;
+}
+#kl:hover
+{
+  background-color: black;  
+}
+#kl:active
+{
+    border: 1px solid red;
+    background-color: blueviolet;
 }
 .o
 {
@@ -161,4 +188,79 @@ color: white;
     display: flex;
     width: 200px;
     
+}
+.nk
+{
+    color: black;
+}
+ a:hover:not(.op)
+{
+    background-color: rgb(42, 165, 73);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.op
+{
+     background-color: rgb(42, 165, 73);   
+    
+    border-radius: 4px;
+    padding: 10px;
+}
+
+@media (max-width:807px)
+{
+    .a
+    {
+        flex-direction: column;
+        
+    }
+}
+@media (max-width:807px)
+{
+    .u
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width:807px)
+{
+    .title
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width:807px)
+{
+    .e
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width:807px)
+{
+    .g
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width:807px)
+{
+    .y
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width:807px)
+{
+    .o
+    {
+        flex-direction: column;
+        text-align: center;
+    }
 }
