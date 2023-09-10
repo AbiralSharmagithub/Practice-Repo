@@ -159,8 +159,7 @@
         padding: 10px;
     }
     
-    #submit
-    {
+    #submit {
         
     
         border: none;
@@ -171,230 +170,38 @@
         color: white;
         background-color: aquamarine;
     }
-   /* .page-heading {
-   text-align: center;
-   margin-bottom: 10px;
-   } */
 
-  /* .b {
-    display: flex;
-    width: 50%;
-    justify-content: flex-end;
-    font-size: 25px;
-    color: white;
-}
-
-.t {
-    display: flex;
-    width: 50%;
-    justify-content: flex-end;
-}
-
- ul {
-display: flex;
-width: 40%;
-justify-content: space-around;
-color: white;
-}
-
-li {
-    list-style-type: none;
-
-}
-
-li a {
-    text-decoration: none;
-}
-
-.xa {
-   color: white;
-    text-decoration: none;
-}  */
-
-.title {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-color: aqua;
-margin-top: 50px;
-}
-
-.boot {
-    margin-top: 10px;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.intro {
-    margin-top: 10px;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-bottom: 10px;
-}
-
-.c {
-    width: 100%;
-    margin-top: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.d {
-    margin-bottom: 15px;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.e
-{
-    display: flex;
-    flex-wrap: wrap;
-    width: 800px;
-justify-content: space-evenly;
-}
-.g {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-color: rgba(20, 204, 20, 0.671);
-line-height: 40px;
-margin-top: 70px;
-color: white;
-}
-
-.y {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.h {
-    padding: 10px;
-    font-size: 30px;
-}
-
-.l {
-    border: 2px solid white ;
-    border-radius: 4px;
-    padding: 5px;
-    margin-bottom: 4px;
+   #submit:hover{
+    background-color: #AEC3B0;
     cursor: pointer;
-    
-}
-
- .l:hover {
-    background-color: aqua;
-}
-
-.l:active {
-    border: 1px solid red;
-    background-color: purple;
-} 
-
-
-.k {
-    font-size: 20px;
-}
-
-#kl:hover {
-  background-color: black;  
-}
-
-#kl:active {
-    border: 1px solid red;
-    background-color: blueviolet;
-}
-
-.o {
+   }
+#Footer {
     display: flex;
+    
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.477);
+    background-color: wheat;
     align-items: center;
     height: 100px;
+
 }
 
-.jk {
+.Address {
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+#media {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
+    list-style-type: none;
+    justify-content: space-evenly;  
 }
 
-.kgf {
-    display: flex;
-    width: 200px;
-    
+.social-media {
+    border: 1px solid white;
+    background-color: wheat;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 2px;
 }
-
-.nk {
-    color: black;
-}
-
-
-
-.op {
-      background-color: rgb(42, 165, 73);   
-      border-radius: 4px;
-      padding: 10px;
-}
-
-@media (max-width:807px)
-{
-    .a
-    {
-        flex-direction: column;
-        
-    }
-}
-@media (max-width:807px)
-{
-    .u
-    {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-@media (max-width:807px)
-{
-    .title
-    {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-@media (max-width:807px)
-{
-    .e
-    {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-@media (max-width:807px)
-{
-    .g
-    {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-@media (max-width:807px)
-{
-    .y
-    {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-@media (max-width:807px)
-{
-    .o
-    {
-        flex-direction: column;
-        text-align: center;
-    }
-} */
